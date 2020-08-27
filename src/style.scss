@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +24,7 @@ body {
   align-content: space-between;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 .preloader-title {
   color:  #ffffff;
@@ -30,9 +33,18 @@ body {
 }
 .preloader {
   border-style: solid;
-  color: #a0f568;
+  color: #f5d563;
   height: 30px;
   width: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.preloader-download {
+  background-color: #a0f568;
+  height: 30px;
+  width: 0;
+  border-radius: 5px;
 
 }
 
