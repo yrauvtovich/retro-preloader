@@ -31,6 +31,8 @@ body {
   color: #ffffff;
   font-family: "Inconsolata", monospace;
   font-size: 30px;
+  display: flex;
+  align-items: baseline;
 }
 
 .preloader {
@@ -46,6 +48,39 @@ body {
   background-color: #ffffff;
   height: 30px;
   width: 0;
+}
+
+#point-one {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  width: 5px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-left: 7px;
+  margin-right: 5px;
+}
+
+#point-two {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  width: 5px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#point-three {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  width: 5px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
