@@ -10,7 +10,7 @@ body {
 }
 
 .background {
-  background-color: #000;
+  background-color: #000000;
   position:fixed;
   top: 0;
   left: 0;
@@ -52,9 +52,8 @@ body {
 }
 #title {
 
-
 }
-#point-one {
+.point-one {
   display: -webkit-inline-flex;
   display: inline-flex;
   width: 5px;
@@ -65,7 +64,7 @@ body {
   margin-right: 5px;
 }
 
-#point-two {
+.point-two {
   display: -webkit-inline-flex;
   display: inline-flex;
   width: 5px;
@@ -76,7 +75,7 @@ body {
   margin-right: 5px;
 }
 
-#point-three {
+.point-three {
   display: -webkit-inline-flex;
   display: inline-flex;
   width: 5px;
@@ -86,6 +85,17 @@ body {
   margin-left: 5px;
   margin-right: 5px;
 }
+
+.delete {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+
+
 
 
 
