@@ -1,17 +1,23 @@
 $(document).ready(function(){
+
+//Setting the download time in seconds
     let time = 5;
+
+//Download options
     $(".preloader-download").animate({
         width: "400px",
         transition: time +"s",
     });
+
+//Blinking points
     setTimeout(function onePoint() {
         setInterval(function () {
-            if ($(".point-one").hasClass("delete")){
-                $(".point-one").removeClass("delete").addClass("show");
+            if ($(".point-one").hasClass("point-hide")){
+                $(".point-one").removeClass("point-hide").addClass("point-show");
             } else {
-                $(".point-one").addClass("delete");
-                if ($(".point-one").hasClass("show")) {
-                    $(".point-one").removeClass("show")
+                $(".point-one").addClass("point-hide");
+                if ($(".point-one").hasClass("point-show")) {
+                    $(".point-one").removeClass("point-show")
                 }
 
             }
@@ -19,12 +25,12 @@ $(document).ready(function(){
     }, (time-4)*80);
     setTimeout(function twoPoint(){
         setInterval(function () {
-            if ($(".point-two").hasClass("delete")){
-                $(".point-two").removeClass("delete").addClass("show");
+            if ($(".point-two").hasClass("point-hide")){
+                $(".point-two").removeClass("point-hide").addClass("point-show");
             } else {
-                $(".point-two").addClass("delete");
-                if ($(".point-two").hasClass("show")) {
-                    $(".point-two").removeClass("show")
+                $(".point-two").addClass("point-hide");
+                if ($(".point-two").hasClass("point-show")) {
+                    $(".point-two").removeClass("point-show")
                 }
 
             }
@@ -32,12 +38,12 @@ $(document).ready(function(){
     }, (time-3)*80);
     setTimeout(function threePoint() {
         setInterval(function () {
-            if ($(".point-three").hasClass("delete")) {
-                $(".point-three").removeClass("delete").addClass("show");
+            if ($(".point-three").hasClass("point-hide")) {
+                $(".point-three").removeClass("point-hide").addClass("point-show");
             } else {
-                $(".point-three").addClass("delete");
-                if ($(".point-three").hasClass("show")) {
-                    $(".point-three").removeClass("show")
+                $(".point-three").addClass("point-hide");
+                if ($(".point-three").hasClass("point-show")) {
+                    $(".point-three").removeClass("point-show")
                 }
 
             }

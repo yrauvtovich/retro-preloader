@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -83,11 +83,11 @@ body {
   margin-right: 5px;
 }
 
-.delete {
+.point-hide {
   opacity: 0;
 }
 
-.show {
+.point-show {
   opacity: 1;
 }
 
